@@ -1,0 +1,235 @@
+.root {
+    padding-top: 50px;
+    padding-bottom: 40px;
+    font-family: "微软雅黑";
+}
+
+/*广告轮播*/
+
+.carousel {
+    height: 500px;
+    margin-bottom: 20px;
+}
+
+.carousel .item {
+    height: 500px;
+    background-color: #000000;
+}
+
+.carousel .item img {
+    width: 100%;
+    height: 600px;
+}
+/*简介*/
+
+.summary {
+    padding: 2px 15px;
+}
+
+.summary .col-md-4 {
+    text-align: center;
+}
+/*hr*/
+
+hr .divider {
+    margin: 40px 0;
+}
+/*feature*/
+
+.feature {
+    padding: 30px 0;
+}
+
+.feature-heading {
+    font-size: 50px;
+    color: #2A6496;
+}
+
+.feature-heading .text-muted {
+    font-size: 28px;
+}
+/* 响应式布局 */
+
+@media (max-width: 768px) {
+    .summary {
+        padding-right: 3px;
+        padding-left: 3px;
+    }
+    .carousel {
+        height: 300px;
+        margin-bottom: 30px;
+    }
+    .carousel .item {
+        height: 300px;
+    }
+    .carousel img {
+        min-height: 300px;
+    }
+    .carousel-caption p {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+    .feature-heading {
+        font-size: 34px;
+    }
+    .feature-heading .text-muted {
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 992px) {
+    .feature-heading {
+        margin-top: 120px;
+    }
+}
+
+.wrapper {
+    width: 500px;
+    margin: 10px auto;
+    font-size: 14px;
+    background-color: #fff;
+    border: 1px solid #f1f1f1;
+    padding: 20px;
+}
+
+/* 评论框样式 */
+.comment-input {
+    background-color: #fff;
+    border: 1px solid #f1f1f1;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.comment-field {
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.comment-field .comment-field-name {
+    display: flex;
+    flex-basis: 100px;
+    font-size: 14px;
+}
+
+.comment-field .comment-field-input {
+    display: flex;
+    flex: 1;
+}
+
+.comment-field-input input,
+.comment-field-input textarea {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    padding: 5px;
+    outline: none;
+    font-size: 14px;
+    resize: none;
+    flex: 1;
+}
+
+.comment-field-input textarea {
+    height: 100px;
+}
+
+.comment-field-button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.comment-field-button button {
+    padding: 5px 10px;
+    width: 80px;
+    border: none;
+    border-radius: 3px;
+    background-color: #00a3cf;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+}
+
+.comment-field-button button:active {
+    background: #13c1f1;
+}
+
+/* 评论列表样式 */
+.comment-list {
+    background-color: #fff;
+    border: 1px solid #f1f1f1;
+    padding: 20px;
+}
+
+/* 评论组件样式 */
+.comment {
+    position: relative;
+    display: flex;
+    border-bottom: 1px solid #f1f1f1;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    min-height: 50px;
+}
+
+.comment .comment-user {
+    flex-shrink: 0;
+}
+
+.comment-username {
+    color: #00a3cf;
+    font-style: italic;
+}
+
+.comment-createdtime {
+    padding-right: 5px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.comment:hover .comment-delete {
+    color: #00a3cf;
+}
+
+.comment-delete {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: transparent;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.comment p {
+    margin: 0;
+    /*text-indent: 2em;*/
+}
+
+code {
+    border: 1px solid #ccc;
+    background: #f9f9f9;
+    padding: 0px 2px;
+}
+.navbar .container .navbar-collapse .header-search {
+    margin-top: 8px;
+    margin-left: 43px;
+}
+.navbar .container .navbar-collapse .navbar-nav {
+    float: right;
+}
+.container .task-area-title {
+    font-size: 15px;
+    font-family: 微软雅黑;
+}
+.container .task-area-title .info-img {
+    width: 30px;
+    height: 30px;
+}
+.container .row .task-area {
+    text-align: center;
+    height: 317px;
+}
+.container .row .task-area .img-circle {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
