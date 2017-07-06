@@ -203,6 +203,7 @@ class SearchContentComponent extends Component{
                         </ul>
                     </nav>
                 </div>
+                <hr className="divider task-divider" />
             </div>
         )
     }

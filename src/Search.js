@@ -14,7 +14,6 @@ class Search extends Component{
             <div>
                 <SearchHeaderComponent/>
                 <SearchContentComponent/>
-                <hr className="divider task-divider" />
                 <FooterComponent/>
             </div>
         )

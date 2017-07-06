@@ -8,7 +8,6 @@ import SlideShowComponent from "./SlideShowComponent";
 import FooterComponent from "./FooterComponent";
 import TaskAreaComponent from "./TaskAreaComponent";
 
-
 class Main extends Component{
 
     render(){

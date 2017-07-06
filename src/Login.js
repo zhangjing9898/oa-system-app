@@ -12,7 +12,7 @@ class Login extends Component{
 
     render(){
         return (
-            <div style={{height:'775px'}}>
+            <div className="login"  style={{height:'775px'}}>
                 <HeaderComponent/>
                 <LoginContentComponent/>
             </div>

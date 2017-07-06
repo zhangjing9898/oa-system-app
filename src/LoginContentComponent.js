@@ -4,10 +4,11 @@
 import React,{ Component } from 'react'
 import FooterComponent from "./FooterComponent";
 import LoginBackground from './img/loginBackground.jpg'
+import { HashRouter, Route,Link } from 'react-keeper'
 class LoginContentComponent extends Component{
     render(){
         return (
-            <div className="top-content" style={{backgroundImage:`url(${LoginBackground})`}}>
+            <div className="top-content">
                 <div className="inner-bg">
                     <div className="container">
                         <div className="row login-title">
@@ -41,7 +42,11 @@ class LoginContentComponent extends Component{
                                             <label className="sr-only" for="form-password">密码</label>
                                             <input type="password" name="form-password" placeholder="请输入您的密码..." className="form-password form-control" id="form-password" />
                                         </div>
-                                        <button type="submit" className="btn">登录</button>
+                                        <Link to="/search">
+                                            <button className="btn">
+                                               登录
+                                            </button>
+                                        </Link>
                                     </form>
                                 </div>
                             </div>

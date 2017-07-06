@@ -1,5 +1,5 @@
 import React,{ Component }from 'react'
-
+import { HashRouter, Route,Link } from 'react-keeper'
 class HeaderComponent extends Component{
 
     render(){
@@ -26,17 +26,23 @@ class HeaderComponent extends Component{
                                 </div>
                             </div>
                             <ul className="nav navbar-nav">
-                                <li className="">
-                                    <a href="#ad-carousel">官网详情</a>
+                                <li>
+                                    <Link to="/main">
+                                        官网详情
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a href="#summary-container">简述</a>
+                                    <a>简述</a>
                                 </li>
                                 <li>
-                                    <a href="#" data-toggle="modal" data-target="#about-modal">登录</a>
+                                    <Link to="/login">
+                                        登录
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a>注册</a>
+                                    <Link to="/register">
+                                        注册
+                                    </Link>
                                 </li>
                             </ul>
                         </div>
