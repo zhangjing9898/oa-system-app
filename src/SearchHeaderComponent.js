@@ -1,4 +1,5 @@
 import React,{ Component } from 'react'
+import { Link } from 'react-keeper'
 
 class SearchHeaderComponent extends Component{
 
@@ -13,7 +14,7 @@ class SearchHeaderComponent extends Component{
                             <span className="icon-bar"></span>
                             <span className="icon-bar"></span>
                         </button>
-                        <a className="navbar-brand" >OA系统</a>
+                        <Link className="navbar-brand" to="/main">OA系统</Link>
                     </div>
                     <div className="navbar-collapse collapse">
                         <div className="user-info">
@@ -28,7 +29,9 @@ class SearchHeaderComponent extends Component{
                                     <a >消息</a>
                                 </li>
                                 <li>
-                                    <a >退出</a>
+                                    <Link to="/search">
+                                        <a >退出</a>
+                                    </Link>
                                 </li>
                             </ol>
                         </div>
