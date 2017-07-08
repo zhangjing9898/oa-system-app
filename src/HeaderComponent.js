@@ -1,5 +1,5 @@
 import React,{ Component }from 'react'
-import { HashRouter, Route,Link } from 'react-keeper'
+import { Link } from 'react-keeper'
 class HeaderComponent extends Component{
 
     render(){
@@ -13,7 +13,7 @@ class HeaderComponent extends Component{
                             <span className="icon-bar"></span>
                             <span className="icon-bar"></span>
                         </button>
-                        <a className="navbar-brand" href="#">OA系统</a>
+                        <Link className="navbar-brand" to="/main">OA系统</Link>
                     </div>
                     <div className="navbar-collapse collapse">
                         <div className="row">

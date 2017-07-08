@@ -1,6 +1,6 @@
 import React,{ Component } from 'react'
-import ReactDOM from 'react-dom'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import { Link } from 'react-keeper'
 class SearchContentComponent extends Component{
 
     render(){
@@ -11,7 +11,9 @@ class SearchContentComponent extends Component{
                         <div className="input-group">
                             <input type="text" className="form-control" aria-label="..."/>
                                 <div className="input-group-btn">
-                                    <button className="btn btn-success">查询</button>
+                                    <Link to="/error"><button className="btn btn-success">
+                                         查询
+                                    </button></Link>
                                 </div>
                         </div>
                     </div>
@@ -178,25 +180,25 @@ class SearchContentComponent extends Component{
                     <nav aria-label="...">
                         <ul className="pagination">
                             <li className="disabled">
-                                <a href="#" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
+                                <a ><span >&laquo;</span></a>
                             </li>
                             <li className="active">
-                                <a href="#">1 <span className="sr-only">(current)</span></a>
+                                <a>1 <span className="sr-only">(current)</span></a>
                             </li>
                             <li className="">
-                                <a href="#">2 <span className="sr-only">(current)</span></a>
+                                <a >2 <span className="sr-only">(current)</span></a>
                             </li>
                             <li className="">
-                                <a href="#">3<span className="sr-only">(current)</span></a>
+                                <a >3<span className="sr-only">(current)</span></a>
                             </li>
                             <li className="">
-                                <a href="#">4 <span className="sr-only">(current)</span></a>
+                                <a >4 <span className="sr-only">(current)</span></a>
                             </li>
                             <li className="">
-                                <a href="#">5<span className="sr-only">(current)</span></a>
+                                <a >5<span className="sr-only">(current)</span></a>
                             </li>
                             <li>
-                                <a href="#" aria-label="Next">
+                                <a aria-label="Next">
                                     <span aria-hidden="true">&raquo;</span>
                                 </a>
                             </li>

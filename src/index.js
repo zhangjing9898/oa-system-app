@@ -2,10 +2,10 @@ import React,{ Component } from 'react'
 import ReactDOM from 'react-dom'
 import Main from './Main'
 import Login from './Login'
-import { HashRouter, Route,Link } from 'react-keeper'
+import { HashRouter, Route } from 'react-keeper'
 import Register from "./Register";
 import Search from "./Search";
-import App from "./App";
+import Error from "./Error"
 
 class All extends Component{
     render(){
@@ -17,6 +17,7 @@ class All extends Component{
                     <Route component={ Login } path={"/login"}/>
                     <Route component={ Register } path={"/register"}/>
                     <Route component={ Search } path={"/search"}/>
+                    <Route component={ Error } path={"/error"}/>
                 </div>
 
             </HashRouter>

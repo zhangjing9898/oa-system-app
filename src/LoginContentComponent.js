@@ -3,8 +3,7 @@
  */
 import React,{ Component } from 'react'
 import FooterComponent from "./FooterComponent";
-import LoginBackground from './img/loginBackground.jpg'
-import { HashRouter, Route,Link } from 'react-keeper'
+import { Link } from 'react-keeper'
 class LoginContentComponent extends Component{
     render(){
         return (
@@ -33,7 +32,7 @@ class LoginContentComponent extends Component{
                                     </div>
                                 </div>
                                 <div className="form-bottom">
-                                    <form role="form" action="" method="post" className="login-form">
+                                    <form  action="" method="post" className="login-form">
                                         <div className="form-group">
                                             <label className="sr-only" for="form-username">用户名</label>
                                             <input type="text" name="form-username" placeholder="请输入用户名..." className="form-username form-control" id="form-username" />

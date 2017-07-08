@@ -29,7 +29,7 @@ class RegisterComponent extends Component{
                                     </div>
                                 </div>
                                 <div className="form-bottom">
-                                    <form role="form" action="" method="post" className="login-form">
+                                    <form action="" method="post" className="login-form">
                                         <div className="form-group">
                                             <label className="sr-only" for="form-username">用户名</label>
                                             <input type="text" name="form-username" placeholder="请输入用户名..." className="form-username form-control" id="form-username" />

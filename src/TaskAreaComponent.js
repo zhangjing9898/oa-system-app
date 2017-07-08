@@ -6,7 +6,7 @@ class TaskAreaComponent extends Component{
         return (
             <div className="container summary">
                 <div className="task-area-title">
-                    <img className="info-img" src={Info} />新任务发布啦~
+                    <img className="info-img" src={Info} alt="infoImg"/>新任务发布啦~
                 </div>
                 <hr className="divider" />
                 <div className="row">
@@ -18,7 +18,7 @@ class TaskAreaComponent extends Component{
                             <p>作业：实验报告</p>
                         </div>
                         <p className="task-enter-btn">
-                            <a className="btn btn-default" href="#" role="button">点击进入</a>
+                            <a className="btn btn-default"  role="button">点击进入</a>
                         </p>
                     </div>
                     <div className="col-md-3 task-area">
@@ -29,7 +29,7 @@ class TaskAreaComponent extends Component{
                             <p>作业：实验报告</p>
                         </div>
                         <p className="task-enter-btn">
-                            <a className="btn btn-default" href="#" role="button">点击进入</a>
+                            <a className="btn btn-default"  role="button">点击进入</a>
                         </p>
                     </div>
                     <div className="col-md-3 task-area">
@@ -40,7 +40,7 @@ class TaskAreaComponent extends Component{
                             <p>作业：实验报告</p>
                         </div>
                         <p className="task-enter-btn">
-                            <a className="btn btn-default" href="#" role="button">点击进入</a>
+                            <a className="btn btn-default" role="button">点击进入</a>
                         </p>
                     </div>
                     <div className="col-md-3 task-area">
@@ -51,7 +51,7 @@ class TaskAreaComponent extends Component{
                             <p>作业：实验报告</p>
                         </div>
                         <p className="task-enter-btn">
-                            <a className="btn btn-default" href="#" role="button">点击进入</a>
+                            <a className="btn btn-default"  role="button">点击进入</a>
                         </p>
                     </div>
                 </div>

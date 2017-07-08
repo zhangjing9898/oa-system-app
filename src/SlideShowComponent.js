@@ -16,13 +16,13 @@ class SlideShowComponent extends Component{
                 </ol>
                 <div className="carousel-inner" role="listbox">
                     <div className="item active">
-                        <img src={SlideShow1}/>
+                        <img src={SlideShow1} alt="slideImg1"/>
                             <div className="container">
                                 <div className="carousel-caption">
                                     <h1>计科系</h1>
                                     <p>计算机科学与技术系</p>
                                     <p>
-                                        <a className="btn btn-lg btn-success" href="http://www.apple.com/cn/safari/" target="_blank" role="button">点我了解</a>
+                                        <a className="btn btn-lg btn-success" role="button">点我了解</a>
                                     </p>
                                 </div>
                             </div>
@@ -34,7 +34,7 @@ class SlideShowComponent extends Component{
                                     <h1>信管系</h1>
                                     <p>信息管理系</p>
                                     <p>
-                                        <a className="btn btn-lg btn-success" href="http://www.apple.com/cn/safari/" target="_blank" role="button">点我了解</a>
+                                        <a className="btn btn-lg btn-success" role="button">点我了解</a>
                                     </p>
                                 </div>
                             </div>
@@ -46,7 +46,7 @@ class SlideShowComponent extends Component{
                                     <h1>数艺系</h1>
                                     <p>数字艺术系</p>
                                     <p>
-                                        <a className="btn btn-lg btn-success" href="http://www.apple.com/cn/safari/" target="_blank" role="button">点我了解</a>
+                                        <a className="btn btn-lg btn-success" role="button">点我了解</a>
                                     </p>
                                 </div>
                             </div>
@@ -58,7 +58,7 @@ class SlideShowComponent extends Component{
                                     <h1>外语系</h1>
                                     <p>应用外语系</p>
                                     <p>
-                                        <a className="btn btn-lg btn-success" href="http://www.apple.com/cn/safari/" target="_blank" role="button">点我了解</a>
+                                        <a className="btn btn-lg btn-success"role="button">点我了解</a>
                                     </p>
                                 </div>
                             </div>
